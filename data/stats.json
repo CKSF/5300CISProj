@@ -1,0 +1,88 @@
+{
+  "stats": {
+    "electronics_2012_2014/dev": {
+      "n": 3000,
+      "true": 1500,
+      "false": 1500,
+      "products": 1852,
+      "mean_words": 118.6
+    },
+    "electronics_2012_2014/train": {
+      "n": 24000,
+      "true": 12000,
+      "false": 12000,
+      "products": 15048,
+      "mean_words": 117.3
+    },
+    "electronics_2015_2018/dev": {
+      "n": 3000,
+      "true": 1500,
+      "false": 1500,
+      "products": 2096,
+      "mean_words": 82.7
+    },
+    "electronics_2015_2018/test": {
+      "n": 3000,
+      "true": 1500,
+      "false": 1500,
+      "products": 2042,
+      "mean_words": 83.0
+    },
+    "electronics_2015_2018/train": {
+      "n": 24000,
+      "true": 12000,
+      "false": 12000,
+      "products": 16410,
+      "mean_words": 83.7
+    },
+    "electronics_2019_2020/dev": {
+      "n": 3000,
+      "true": 1500,
+      "false": 1500,
+      "products": 2141,
+      "mean_words": 75.5
+    },
+    "electronics_2019_2020/train": {
+      "n": 24000,
+      "true": 12000,
+      "false": 12000,
+      "products": 16860,
+      "mean_words": 72.0
+    },
+    "shift_beauty_2015_2018/test": {
+      "n": 5000,
+      "true": 2500,
+      "false": 2500,
+      "products": 4412,
+      "mean_words": 54.2
+    },
+    "shift_books_2015_2018/test": {
+      "n": 5000,
+      "true": 2500,
+      "false": 2500,
+      "products": 4793,
+      "mean_words": 96.4
+    },
+    "shift_electronics_2021/test": {
+      "n": 5000,
+      "true": 2500,
+      "false": 2500,
+      "products": 2748,
+      "mean_words": 69.7
+    },
+    "shift_home_kitchen_2015_2018/test": {
+      "n": 5000,
+      "true": 2500,
+      "false": 2500,
+      "products": 4681,
+      "mean_words": 55.8
+    }
+  },
+  "product_leakage": {
+    "train&dev": 0,
+    "train&test": 0,
+    "dev&test": 0,
+    "train&shift_electronics_2021": 0
+  },
+  "shortfall": []
+}
