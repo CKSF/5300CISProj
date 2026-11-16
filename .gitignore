@@ -1,0 +1,6 @@
+.DS_Store
+__pycache__/
+*.pyc
+# dataset is shared via Google Drive (see data.md), not stored in git
+data/
+data.tar.gz
